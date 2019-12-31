@@ -1,0 +1,17 @@
+{
+  "name": "swadhin/adapter-pattern",
+  "description": "Adapter Pattern Described in Laracast",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Swadhin Saha",
+      "email": "rahul4kuet2k10@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src"
+    }
+  }
+}

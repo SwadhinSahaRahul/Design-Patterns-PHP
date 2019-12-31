@@ -1,6 +1,5 @@
 <?php
 
-
 interface CarService
 {
     public function getCost();
@@ -20,7 +19,6 @@ class BasicInspection implements CarService
         return 'Basic Inspection';
     }
 }
-
 
 class  OilChange implements CarService
 {
