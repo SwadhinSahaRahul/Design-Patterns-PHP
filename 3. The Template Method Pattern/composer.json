@@ -1,0 +1,16 @@
+{
+  "name": "swadhin/template-method-pattern",
+  "description": "Template Method Pattern in Laracast",
+  "authors": [
+    {
+      "name": "Swadhin Saha",
+      "email": "rahul4kuet2k10@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}

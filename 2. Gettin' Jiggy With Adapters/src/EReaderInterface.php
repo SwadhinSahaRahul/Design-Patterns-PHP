@@ -2,7 +2,7 @@
 
 namespace Acme;
 
-interface eReaderInterface
+interface EReaderInterface
 {
     public function turnOn();
 

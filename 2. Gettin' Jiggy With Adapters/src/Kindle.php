@@ -3,8 +3,7 @@
 
 namespace Acme;
 
-
-class Kindle implements eReaderInterface
+class Kindle implements EReaderInterface
 {
     public function turnOn()
     {

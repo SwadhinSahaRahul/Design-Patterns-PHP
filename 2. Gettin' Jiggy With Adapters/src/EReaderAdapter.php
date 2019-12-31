@@ -3,21 +3,18 @@
 
 namespace Acme;
 
-
-class eReaderAdapter implements BookInterface
+class EReaderAdapter implements BookInterface
 {
-
     private $reader;
 
     /**
      * eReaderAdapter constructor.
      * @param eReaderInterface $reader
      */
-    public function __construct(eReaderInterface $reader)
+    public function __construct(EReaderInterface $reader)
     {
         $this->reader = $reader;
     }
-
 
     public function turnPage()
     {

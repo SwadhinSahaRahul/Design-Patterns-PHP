@@ -3,8 +3,7 @@
 
 namespace Acme;
 
-
-class Nook implements eReaderInterface
+class Nook implements EReaderInterface
 {
     public function turnOn()
     {
@@ -15,5 +14,4 @@ class Nook implements eReaderInterface
     {
         var_dump('Press the next button on the nook.');
     }
-
 }
