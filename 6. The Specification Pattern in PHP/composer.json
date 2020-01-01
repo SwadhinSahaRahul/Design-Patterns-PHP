@@ -1,0 +1,19 @@
+{
+  "name": "swadhin/specification-pattern",
+  "description": "The Specification Pattern Laracasts",
+  "authors": [
+    {
+      "name": "Swadhin Saha",
+      "email": "rahul4kuet2k10@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
+}
